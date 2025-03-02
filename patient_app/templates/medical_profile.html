@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Medical Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>My Medical Profile</h2>
+        <table>
+            {% for key, value in profile.items() %}
+                <tr>
+                    <td><strong>{{ key.replace("_", " ").title() }}</strong></td>
+                    <td>{{ value }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <a href="{{ url_for('dashboard') }}" class="back-button">Back to Dashboard</a>
+    </div>
+</body>
+</html>

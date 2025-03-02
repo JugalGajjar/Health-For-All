@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Consultation Details</h1>
+    <div id="consultationDetails">
+        <p><strong>Patient Name:</strong> {{ consultation.patient_name }}</p>
+        <p><strong>Date:</strong> {{ consultation.date }}</p>
+        <p><strong>Status:</strong> {{ consultation.status }}</p>
+        <p><strong>Details:</strong></p>
+        <ul>
+            <li><strong>Has Happened Before?:</strong> {{ consultation.details.has_happened_before }}</li>
+            <li><strong>Symptoms:</strong> {{ consultation.details.symptoms }}</li>
+            <li><strong>Severity:</strong> {{ consultation.details.severity }}</li>
+            <li><strong>Duration:</strong> {{ consultation.details.duration }}</li>
+            <li><strong>Current Medications:</strong> {{ consultation.details.current_medications }}</li>
+        </ul>
+    </div>
+
+    <form id="consultationForm">
+        <label for="status">Status:</label>
+        <select id="status" name="status">
+            <option value="Pending">Pending</option>
+            <option value="Approved">Approve</option>
+            <option value="Rejected">Reject</option>
+        </select>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

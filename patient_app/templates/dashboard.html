@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to Your Dashboard</h2>
+        
+        <div class="dashboard-grid">
+            <a href="{{ url_for('medical_profile') }}" class="tile">
+                <h3>My Medical Profile</h3>
+            </a>
+            <a href="#" class="tile">
+                <h3>Previous Reports/Prescriptions</h3>
+            </a>
+            <a href="{{ url_for('start_consultation') }}" class="tile">
+                <h3>Start Consultation</h3>
+            </a>
+            <a href="#" class="tile">
+                <h3>Appointment Schedule</h3>
+            </a>
+            <a href="{{ url_for('logout') }}" class="tile logout">
+                <h3>Logout</h3>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

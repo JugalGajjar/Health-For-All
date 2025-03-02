@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Appointment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Schedule Appointment</h1>
+    <form id="appointmentForm">
+        <label for="slots">Select 5 Availability Slots:</label>
+        <input type="datetime-local" id="slot1" required>
+        <input type="datetime-local" id="slot2" required>
+        <input type="datetime-local" id="slot3" required>
+        <input type="datetime-local" id="slot4" required>
+        <input type="datetime-local" id="slot5" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

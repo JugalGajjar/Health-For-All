@@ -1,0 +1,241 @@
+{
+    "test_user": {
+        "password": "scrypt:32768:8:1$z2S7gX1DwjqhvSPo$0823983fb8d80fb8f40915ae420b4b15b4914fc0aac47cc05a4d522a007536177983a79097b38ad8644cca48590d7572d3fcdb07d4ec1a80e70a9dd8feb303ce",
+        "profile": {
+            "first_name": "Ka123",
+            "last_name": "123",
+            "address": "1234xyz",
+            "contact": "1234567890",
+            "email": "xyz@gmail.com",
+            "dob": "2002-02-22",
+            "blood_group": "B+ve",
+            "height": "186",
+            "weight": "55",
+            "beneficiary_name": "kamom",
+            "beneficiary_age": "50",
+            "beneficiary_contact": "0987654321",
+            "beneficiary_email": "cnwefknw@gmail.com",
+            "beneficiary_address": "ejfnwof",
+            "beneficiary_relation": "Mom",
+            "beneficiary_blood_group": "o",
+            "medical_condition": "Heart Disease",
+            "other_condition": "",
+            "allergies": "lactose, gluten, peanuts",
+            "vaccination_records": "hiv",
+            "family_medical_history": "hiv",
+            "current_medications": "dolo650",
+            "doctor_name": "doc1",
+            "doctor_contact": "1234509876",
+            "doctor_email": "fdjnejgn@gmail.com",
+            "hospital_name": "gw hospital",
+            "hospital_address": "foggy  bottom",
+            "lifestyle": "healthy",
+            "diet_preferences": "non-veg",
+            "exercise_routine": ""
+        },
+        "consultations": {
+            "consultation_2025-03-02_00-24-29": {
+                "date": "2025-03-02 00:24:29",
+                "has_happened_before": "No",
+                "symptoms": "nausea, stomachache, headache",
+                "severity": "4",
+                "duration": "1 day"
+            }
+        }
+    },
+    "g43816454": {
+        "password": "scrypt:32768:8:1$sPHtI7FjbhBUQK83$e10df54ed3947ed8a6937da1fec247502cd9a5a777c57f66cce7aa49bc9133e0c716fe81fdfed5096c8d483c56560768d595d07d735e2140d5d2bd1136e92fc3",
+        "profile": {}
+    },
+    "jg": {
+        "profile": {
+            "first_name": "Jugal",
+            "last_name": "Gajjar",
+            "address": "Address",
+            "contact": "1234567890",
+            "email": "test@test.com",
+            "dob": "2002-12-08",
+            "blood_group": "B+",
+            "height": "170",
+            "weight": "80",
+            "beneficiary_name": "My mom",
+            "beneficiary_age": "44",
+            "beneficiary_contact": "9876543210",
+            "beneficiary_email": "mom_test@test.com",
+            "beneficiary_address": "India",
+            "beneficiary_relation": "Mother",
+            "beneficiary_blood_group": "B+",
+            "medical_condition": "",
+            "other_condition": "",
+            "allergies": "None",
+            "vaccination_records": "All clear",
+            "family_medical_history": "No issues",
+            "current_medications": "None",
+            "doctor_name": "doc1",
+            "doctor_contact": "5432167890",
+            "doctor_email": "test_doc@test.com",
+            "hospital_name": "test hospital",
+            "hospital_address": "2130 H St, NW, Washington DC",
+            "lifestyle": "healthy lifestyle",
+            "diet_preferences": "vegetarian",
+            "exercise_routine": "4"
+        },
+        "consultations": {
+            "consultation_2025-03-02_08-02-02": {
+                "date": "2025-03-02 08:02:02",
+                "has_happened_before": "yes",
+                "symptoms": "Headache when not wearing specs and eyes get dry",
+                "severity": "3",
+                "duration": "4 days",
+                "current_medications": "Eye drops"
+            }
+        },
+        "initial_diagnosis": {
+            "initial_diagnosis2025-03-02_08-02-08": "/think>\n\n1. **Patient Summary:**  \n   Jugal is a 44-year-old woman living with his mother, who has a healthy lifestyle but lacks specific medical records or symptoms listed in the task details.\n\n2. **Most Likely Causes:**  \n   - Diet: Vegetarian diet preferences could interfere with some symptoms if not properly controlled.  \n   - Lifestyle: Regular physical activity might be necessary to address any conditions indicated by the \"lifestyle\" section.  \n   - Possible triggers: Symptoms like headaches or digestive issues may not be provided but could relate to specific triggers that need further investigation.\n\n3. **Immediate Recommendations:**  \n   - Improve dietary habits, especially supporting vegetarianism where possible.  \n   - Engage in regular exercise to manage any physical symptoms.  \n   - Monitor for any potential triggers of symptoms to prevent complications."
+        }
+    },
+    "G23": {
+        "profile": {
+            "first_name": "Kamala",
+            "last_name": "S",
+            "address": "Washington DC",
+            "contact": "7432678055",
+            "email": "kamalas@gmail.com",
+            "age": "21",
+            "gender": "female",
+            "blood_group": "B+",
+            "height": "152",
+            "weight": "55",
+            "beneficiary_name": "Mum",
+            "beneficiary_age": "45",
+            "beneficiary_contact": "252069547",
+            "beneficiary_email": "mum@gmail.com",
+            "beneficiary_address": "Washington DC",
+            "beneficiary_relation": "mom",
+            "beneficiary_blood_group": "O+",
+            "medical_condition": "Other",
+            "other_condition": "Fever",
+            "allergies": "cilantro",
+            "vaccination_records": "all records clear",
+            "family_medical_history": "No issues",
+            "current_medications": "None",
+            "doctor_name": "test doctor",
+            "doctor_contact": "5432167890",
+            "doctor_email": "test_doc@test.com",
+            "hospital_name": "Test hospital",
+            "hospital_address": "2130 H St, NW, Washington DC",
+            "lifestyle": "healthy lifestyle",
+            "diet_preferences": "vegetarian",
+            "exercise_routine": "3"
+        },
+        "consultations": {
+            "consultation_2025-03-02_08-13-57": {
+                "date": "2025-03-02 08:13:57",
+                "has_happened_before": "yes",
+                "symptoms": "Fever, nausea, anemia",
+                "severity": "4",
+                "duration": "3 days",
+                "current_medications": "Dolo650"
+            }
+        },
+        "initial_diagnosis": {
+            "initial_diagnosis2025-03-02_08-14-09": "/think>\n\n1. **Patient Summary:**\n- Kamala is a 21-year-old woman in Washington DC with no family medical history, vegetarian diet preferences, healthy lifestyle, and an active exercise routine.\n\n2. **Most Likely Causes:**\n- **Cause 1:** Anemia (possibly from blood B+). Anemia can be due to vitamin B12 deficiency or red blood cell count reduction.\n- **Cause 2:** Fever/nausea linked to anemia. The severity of symptoms suggests potential complications like fatigue, shortness of breath, or infection.\n- **Cause 3:** Possible blood transfusion-related issues with medication Dolo 650. Blood groups and anemia are common with blood transfusions.\n\n3. **Immediate Recommendations:**\n- **Recommendation 1:** Recommend iron supplements for Kamala to address any iron deficiency from possible anemia, especially since she has a B+ blood group.\n- **Recommendation 2:** Suggest consulting a healthcare provider if the anemia persists or severity increases beyond what's being managed.\n- **Recommendation 3:** Monitor her Dolo 650 dosage and consider testing it for side effects or effectiveness. Additionally, check for any complications like infection due to blood transfusions."
+        }
+    },
+    "test": {
+        "profile": {
+            "first_name": "wsfcwr",
+            "last_name": "kjfwkj",
+            "address": "kwkedfcw",
+            "contact": "1234567890",
+            "email": "test@test.com",
+            "age": "23",
+            "gender": "female",
+            "blood_group": "B+",
+            "height": "175",
+            "weight": "55",
+            "beneficiary_name": "edwed",
+            "beneficiary_age": "45",
+            "beneficiary_contact": "9876543210",
+            "beneficiary_email": "son_test@test.com",
+            "beneficiary_address": "pv apartments apt g1, a, va",
+            "beneficiary_relation": "Mother",
+            "beneficiary_blood_group": "O+",
+            "medical_condition": "Heart Disease",
+            "other_condition": "",
+            "allergies": "None",
+            "vaccination_records": "all records clear",
+            "family_medical_history": "no issues",
+            "current_medications": "blood thinner",
+            "doctor_name": "doc1",
+            "doctor_contact": "5432167890",
+            "doctor_email": "test_doc@test.com",
+            "hospital_name": "test hospital",
+            "hospital_address": "2130 H St, NW, Washington DC",
+            "lifestyle": "smoking",
+            "diet_preferences": "non-veg",
+            "exercise_routine": "0"
+        },
+        "consultations": {
+            "consultation_2025-03-02_11-55-09": {
+                "date": "2025-03-02 11:55:09",
+                "has_happened_before": "yes",
+                "symptoms": "i feel breathless very easily and not able to eat food properly",
+                "severity": "4",
+                "duration": "2 days",
+                "current_medications": "no"
+            }
+        },
+        "initial_diagnosis": {
+            "initial_diagnosis2025-03-02_11-55-16": "\n**Patient Summary:**  \nThe patient is a female of 23 years old with a history of smoking, blood group B+, and current medications including blood thinner. She has a family medical history of no issues and beneficial conditions such as non-veg diet and regular exercise.\n\n**Most Likely Causes:**\n1. **Smoking:** Her smoking history may contribute to cardiovascular symptoms like breathlessness and difficulty in eating.\n2. **Diet Preferences:** Consuming non-veg foods could affect blood flow and energy levels.\n3. **Exercise Routine:** Regular physical activity might lead to fatigue.\n\n**Immediate Recommendations:**\n1. Stop smoking to reduce risks of heart disease.\n2. Eat more nutrient-dense foods to improve energy levels.\n3. Adjust her exercise routine to avoid fatigue if needed."
+        }
+    },
+    "test1": {
+        "profile": {
+            "first_name": "test1",
+            "last_name": "S",
+            "address": "Address",
+            "contact": "7432678055",
+            "email": "test@test.com",
+            "age": "23",
+            "gender": "22",
+            "blood_group": "B+",
+            "height": "170",
+            "weight": "80",
+            "beneficiary_name": "Mum",
+            "beneficiary_age": "50",
+            "beneficiary_contact": "9876543210",
+            "beneficiary_email": "mom_test@test.com",
+            "beneficiary_address": "India",
+            "beneficiary_relation": "Mother",
+            "beneficiary_blood_group": "O+",
+            "medical_condition": "Heart Disease",
+            "other_condition": "",
+            "allergies": "cilantro",
+            "vaccination_records": "All clear",
+            "family_medical_history": "No issues",
+            "current_medications": "none",
+            "doctor_name": "doc1",
+            "doctor_contact": "5432167890",
+            "doctor_email": "test_doc@test.com",
+            "hospital_name": "test hospital",
+            "hospital_address": "2130 h st, nw, washington dc",
+            "lifestyle": "healthy lifestyle",
+            "diet_preferences": "vegetarian",
+            "exercise_routine": "3"
+        },
+        "consultations": {
+            "consultation_2025-03-02_12-32-20": {
+                "date": "2025-03-02 12:32:20",
+                "has_happened_before": "yes",
+                "symptoms": "fatigue",
+                "severity": "4",
+                "duration": "3 days",
+                "current_medications": "no"
+            }
+        },
+        "initial_diagnosis": {
+            "initial_diagnosis2025-03-02_12-32-32": "\n1. **Patient Summary:**\nA 23-year-old male with a healthy diet preference, regular exercise, no known allergies or medical conditions, living a sedentary life.\n\n2. **Most Likely Causes:**\n- Kidney Disease: Likely due to high blood pressure and weight loss from cardiovascular disease.\n- Heart Disease: Causing low blood sugar levels and contributing to fatigue and shortness of breath.\n\n3. **Immediate Recommendations:**\n- Monitor kidney function through continuous monitoring, especially for fluid balance issues caused by dehydration.\n- Manage heart function with lifestyle changes such as diet control and exercise.\n- Ensure fluid intake to prevent dehydration from both kidney and heart diseases."
+        }
+    }
+}

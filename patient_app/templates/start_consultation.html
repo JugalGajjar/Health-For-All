@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Consultation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="consultation-container">
+        <h2>Start a New Consultation</h2>
+        <form method="POST" class="consultation-form">
+            <label for="has_happened_before">Has it happened before?</label>
+            <select id="has_happened_before" name="has_happened_before" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="symptoms">Describe your symptoms:</label>
+            <textarea id="symptoms" name="symptoms" placeholder="Describe what you're feeling..." required></textarea>
+
+            <label for="severity">How severe is it on a scale of 1 to 5?</label>
+            <input type="text" id="severity" name="severity" placeholder="On a scale of 1 to 5" required>
+
+            <label for="duration">How long have you been experiencing this?</label>
+            <input type="text" id="duration" name="duration" placeholder="e.g., 2 days, 1 week" required>
+
+            <label for="medication">Are you taking any medication for this?</label>
+            <input type="text" id="medication" name="medication" placeholder="e.g., Painkillers, Antibiotics">
+
+            <button type="submit">Submit Consultation</button>
+        </form>
+        <a href="{{ url_for('dashboard') }}" class="back-button">Back to Dashboard</a>
+    </div>
+</body>
+</html>

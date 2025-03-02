@@ -1,0 +1,13 @@
+[
+    {
+        "username": "doc1",
+        "firstname": "dsfw",
+        "lastname": "fdewrv",
+        "contact_number": "2332223423",
+        "email": "xyz@gmail.com",
+        "hospital_name": "dvefv",
+        "hospital_address": "veefverv",
+        "specialization": "vedv",
+        "password": "scrypt:32768:8:1$MRM3lIQswO2FoqKa$c969658f7a518aa326c78c0ed04597bf0c8f747888370228c2f4eb522e750299f6df4a2264b879a456f721b29ca915b81b10a645f2e48f5675a4796e3fcdb1b0"
+    }
+]

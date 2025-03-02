@@ -1,0 +1,17 @@
+{
+    "doc1": [
+        {
+            "id": "consult1",
+            "patient_name": "Kamala S",
+            "date": "2025-03-02",
+            "status": "Pending",
+            "details": {
+                "has_happened_before": "Yes",
+                "symptoms": "Fever, nausea, anemia",
+                "severity": "4",
+                "duration": "3 days",
+                "current_medications": "Dolo650"
+            }
+        }
+    ]
+}

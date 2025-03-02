@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Step Registration</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script defer src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Complete Your Registration</h2>
+        <form id="registration-form" method="POST" action="{{ url_for('registration') }}">
+            <div class="form-step active">
+                <h3>Personal Information</h3>
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
+                <input type="text" name="address" placeholder="Address" required>
+                <input type="text" name="contact" placeholder="Contact Number" required>
+                <input type="email" name="email" placeholder="Email ID" required>
+                <input type="number" name="age" required>
+                <input type="text" name="gender" required>
+                <input type="text" name="blood_group" placeholder="Blood Group" required>
+                <input type="text" name="height" placeholder="Height (cm)" required>
+                <input type="text" name="weight" placeholder="Weight (kg)" required>
+                <button type="button" class="next-step">Next</button>
+            </div>
+
+            <div class="form-step">
+                <h3>Beneficiary Details</h3>
+                <input type="text" name="beneficiary_name" placeholder="Name">
+                <input type="number" name="beneficiary_age" placeholder="Age">
+                <input type="text" name="beneficiary_contact" placeholder="Contact Number">
+                <input type="email" name="beneficiary_email" placeholder="Email ID">
+                <input type="text" name="beneficiary_address" placeholder="Address">
+                <input type="text" name="beneficiary_relation" placeholder="Relation">
+                <input type="text" name="beneficiary_blood_group" placeholder="Blood Group">
+                <button type="button" class="prev-step">Previous</button>
+                <button type="button" class="next-step">Next</button>
+            </div>
+
+            <div class="form-step">
+                <h3>Medical History</h3>
+                <label>Current/Previous Conditions</label>
+                <select name="medical_condition" id="medical_condition">
+                    <option value="">None</option>
+                    <option value="Diabetes">Diabetes</option>
+                    <option value="Hypertension">Hypertension</option>
+                    <option value="Heart Disease">Heart Disease</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input type="text" id="other_condition" name="other_condition" placeholder="Specify Other Condition" style="display:none;">
+                <input type="text" name="allergies" placeholder="Allergies">
+                <input type="text" name="vaccination_records" placeholder="Vaccination Records">
+                <input type="text" name="family_medical_history" placeholder="Family Medical History">
+                <input type="text" name="current_medications" placeholder="Current Medications">
+                <button type="button" class="prev-step">Previous</button>
+                <button type="button" class="next-step">Next</button>
+            </div>
+
+            <div class="form-step">
+                <h3>Family Doctor Details</h3>
+                <input type="text" name="doctor_name" placeholder="Doctor's Name">
+                <input type="text" name="doctor_contact" placeholder="Doctor's Contact Number">
+                <input type="email" name="doctor_email" placeholder="Doctor's Email ID">
+                <input type="text" name="hospital_name" placeholder="Hospital Name">
+                <input type="text" name="hospital_address" placeholder="Hospital Address">
+                <button type="button" class="prev-step">Previous</button>
+                <button type="button" class="next-step">Next</button>
+            </div>
+
+            <div class="form-step">
+                <h3>Lifestyle & Habits</h3>
+                <input type="text" name="lifestyle" placeholder="Lifestyle/Habits">
+                <input type="text" name="diet_preferences" placeholder="Diet Preferences">
+                <label>Exercise Routine (Times per week)</label>
+                <input type="number" name="exercise_routine" min="0" max="7">
+                <button type="button" class="prev-step">Previous</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
